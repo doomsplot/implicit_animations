@@ -1,3 +1,4 @@
+
 # Implicit animations in flutter
 
 This is an app written to demonstrates the use of implicit animations in flutter. It makes use of `AnimatedContainer` to animate transitions in color and size.
@@ -40,4 +41,6 @@ class ColorItem extends StatelessWidget {
 
 In the code snippet above, when the `selected` property changes, the `width`, `color` and `borderRadius` properties of the `AnimatedContainer` will animate to the new value, the anmation will last 2 seconds and it will use the default curve of `linear`.
 
-![a](./implicit_animation_demo.mp4 "demo")
+
+https://user-images.githubusercontent.com/102140996/162614575-7daf0916-6166-4c4b-a3b2-fe8b1b13eb4e.mp4
+

@@ -4,9 +4,9 @@ This is an app written to demonstrates the use of implicit animations in flutter
 
 ## Implicit Animations
 
-Flutter provides implicitly animated widgets, these are variations of the regular widgets, but they are able to animate changes to their properties. When the property of an implicitly animated widget changes, the widget will animate from the old value to the new value.
+Flutter provides implicitly animated widgets, these are variations of the regular widgets that are able to animate changes to their properties. When the property of an implicitly animated widget changes, the widget will animate from the old value to the new value.
 
-To use one of these widgets you have to specify the duration property, this property is used to specify the duration of the animation. The duration argument must be provided, an optional property is the `curve` property. It is used to apply curves such as Curves.easeIn to the animation.
+To use one of these widgets you have to specify the `duration` property, this property is used to specify the duration of the animation. The duration argument must be provided, an optional property is the `curve` property. It is used to apply curves such as Curves.easeIn to the animation.
 
 ```dart
 class ColorItem extends StatelessWidget {
